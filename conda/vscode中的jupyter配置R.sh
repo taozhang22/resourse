@@ -13,7 +13,7 @@ conda install r-devtools -y
 conda install r-BiocManager -y
 conda install r-tidyverse -y
 conda install r-cowplot -y
-
+conda install data.table -y
 conda install -c conda-forge jupyterlab r-irkernel radian  -y
 
 R # 激活R
