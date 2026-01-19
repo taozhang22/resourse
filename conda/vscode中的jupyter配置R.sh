@@ -4,7 +4,7 @@ conda create -n R -y
 conda activate R
 
 conda search r-base # 查看有哪些R的版本可以安装
-conda install r-base=3.6.1 -y
+conda install r-base=4.5.2 -y
 where R
 
 # 安装包
