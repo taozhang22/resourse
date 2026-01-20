@@ -28,3 +28,5 @@ q()
 
 
 python -m pip install -U jupyter jupyter_client ipykernel
+install.packages("IRkernel")
+IRkernel::installspec(user = T)
