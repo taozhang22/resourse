@@ -33,6 +33,12 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 pip config set global.extra-index-url https://pypi.org/simple
 pip config list
 
+#########################################################################################
+# 防止用conda在base中安装和修改
+#########################################################################################
+conda install -c conda-forge conda-protect
+conda protect base
+
 ###############################################################################################
 # 更新conda
 ###############################################################################################
