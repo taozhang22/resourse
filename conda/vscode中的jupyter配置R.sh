@@ -24,3 +24,7 @@ conda install r-qs2 -y
 R
 IRkernel::installspec(user = FALSE)
 q()
+
+
+
+python -m pip install -U jupyter jupyter_client ipykernel
