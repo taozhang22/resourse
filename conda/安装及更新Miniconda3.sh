@@ -4,8 +4,9 @@
 ###############################################################################################
 cd /d D:\download
 curl -L -o Miniconda3-latest-Windows-x86_64.exe https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Windows-x86_64.exe
-start /wait "" Miniconda3-latest-Windows-x86_64.exe /InstallationType=JustMe /RegisterPython=0 /S /D=D:\software\Miniconda3
+setx PATH "D:\software\Miniconda3\condabin;D:\software\Miniconda3\Scripts;$env:PATH" # powershell
 
 ###############################################################################################
 # 更新conda
 ###############################################################################################
+conda update conda
