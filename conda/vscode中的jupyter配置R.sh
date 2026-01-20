@@ -15,6 +15,7 @@ conda install r-BiocManager -y
 conda install r-tidyverse -y
 conda install r-cowplot -y
 conda install data.table -y
+conda install r-lattice
 conda install jupyterlab r-irkernel -y
 
 R
