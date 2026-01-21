@@ -19,7 +19,7 @@ conda init
 echo "$PATH" | tr ':' '\n'
 
 #########################################################################################
-# 接受协议
+# 接受协议（linux不需要）
 #########################################################################################
 conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
 conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
