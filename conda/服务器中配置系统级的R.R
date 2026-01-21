@@ -24,3 +24,5 @@ R --version
 然后把 R: Rterm: Linux 设置为：
 
 /home/students/zhangtao/software/R/4.4.2/bin/R
+
+install.packages("languageserver")
