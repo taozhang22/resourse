@@ -20,6 +20,7 @@ conda install r-matrix -y
 conda install r-seuratobject -y
 conda install jupyterlab r-irkernel -y
 conda install r-qs2 -y
+conda install r-doubletfinder -y
 
 R
 IRkernel::installspec(user = FALSE)
