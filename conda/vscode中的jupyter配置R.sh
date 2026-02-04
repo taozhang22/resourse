@@ -21,7 +21,6 @@ conda install r-seuratobject -y
 conda install r-seurat-data -y
 conda install r-hdf5r -y
 conda install bioconductor-glmgampoi -y
-conda install r-rfast2
 conda install r-ape
 
 
