@@ -18,7 +18,7 @@ conda install r-data.table -y
 conda install r-qs2 -y
 conda install r-seurat -y
 conda install r-seuratobject -y
-conda install r-seuratdata -y
+conda install r-seurat-data -y
 conda install r-hdf5r -y
 conda install bioconductor-glmgampoi -y
 
