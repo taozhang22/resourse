@@ -20,6 +20,7 @@ conda install r-seurat -y
 conda install r-seuratobject -y
 conda install r-seuratdata -y
 conda install r-hdf5r -y
+conda install bioconductor-glmgampoi
 
 
 
