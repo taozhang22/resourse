@@ -23,6 +23,10 @@ conda install r-hdf5r -y
 conda install bioconductor-glmgampoi -y
 conda install r-ape
 
+install.packages("Rfast2")
+
+
+
 
 conda install r-cowplot -y
 
