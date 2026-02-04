@@ -7,7 +7,7 @@ conda search r-base
 conda install r-base=4.5.2 -y
 which R
 
-# 安装包
+# 使用conda安装package
 conda install r-devtools -y
 onda install r-remotes -y
 conda install r-BiocManager -y
@@ -23,6 +23,7 @@ conda install r-hdf5r -y
 conda install bioconductor-glmgampoi -y
 conda install r-ape
 
+# 使用R代码安装package
 install.packages("Rfast2")
 
 
